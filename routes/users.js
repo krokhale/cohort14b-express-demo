@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
@@ -21,7 +22,7 @@ router.get('/:name/profile', function(req, res, next) {
 // GET /dogs
 // POST /dogs
 // PUT /dogs/1
-// DELETE /dogs/
+// DELETE /dogs/1
 
 // 1. Add Database to our backend
 // 2. Connect our backend with the front end react app
